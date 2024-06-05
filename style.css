@@ -90,6 +90,14 @@ body {
 
 }
 
+.resumo > div strong {
+    color: var(--dark-navy);
+}
+
+ .resumo > div strong span {
+    opacity: 0.5;
+ }
+
 .resumo > div div {
     display: flex;
     align-items: center;
@@ -114,4 +122,16 @@ body {
 .visual {
     background: var(--visual) var(--resumo);
     color: var(--visual);
+}
+
+.resumo button {
+    margin-top: 0.8rem;
+    width: 100%;
+    border: none;
+    background-color: var(--dark-navy);
+    color: white;
+    padding-block: 1.6rem;
+    border-radius: 12.8rem;
+    font-size: 1.8rem;
+    font-weight: 700;
 }
