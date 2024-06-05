@@ -10,7 +10,13 @@
     --resultado: linear-gradient(180deg, #75f 0%, #6943FF 0.01%, #2F2CE9 100%);
     --media: linear-gradient(180deg, #4d21c9 0%, rgba(37, 33, 201, 00.0) 100%, rgba(37, 33, 201, 00.0) 100%);
     --white: #fff;
-    --light-blue:#CAC9FF;
+    --light-blue:#CAC9FF; 
+    --dark-navy: #303B59;
+    --resumo: linear-gradient(0deg, rgba(255, 255, 255, 0.95) 100%, rgba(255, 255, 255, 0.95) 100%);
+    --reacao: #FF5555;
+    --memoria: #ffb21E;
+    --verbal: #00BB8F;
+    --visual: #1125D6
 }
 
 body {
@@ -62,4 +68,50 @@ body {
     max-width: 26rem;
     margin-inline: auto;
     color: var(--light-blue);
+}
+
+.resumo {
+    padding: 2.4rem 3.2rem;
+}
+
+.resumo h2 {
+    color: var(--dark-navy);
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.resumo > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem;
+    border-radius: 1.2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.resumo > div div {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.reacao {
+    background: var(--reacao) var(--resumo);
+    color: var(--reacao);
+}
+
+.memoria {
+    background: var(--memoria) var(--resumo);
+    color: var(--memoria);
+}
+
+.verbal {
+    background: var(--verbal) var(--resumo);
+    color: var(--verbal);
+}
+
+.visual {
+    background: var(--visual) var(--resumo);
+    color: var(--visual);
 }
